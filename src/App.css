@@ -1,0 +1,44 @@
+.header-wrapper {
+  background-color: brown;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+.subscribe-content {
+  width: 50%;
+  margin: 10px auto;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.subscribe-head {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.input-section {
+  padding: 10px;
+  border-radius: 5%;
+  margin: 5px;
+  border: none;
+}
+.btn {
+  padding: 0.4rem 8rem;
+  text-align: center;
+  border-radius: 5%;
+  background: red;
+  margin: 10px;
+  color: white;
+  border: none;
+}
+.image-container {
+  text-align: center;
+}
+.img {
+  font-size: 2px;
+  height: 8rem;
+  margin: 2rem;
+}
