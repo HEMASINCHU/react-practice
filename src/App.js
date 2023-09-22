@@ -1,4 +1,6 @@
 import "./App.css";
+import Example3 from "./components/Example";
+import Example2 from "./components/Example1";
 import Products from "./components/product.";
 // import Greet from "./components/Greet";
 // import Main from "./components/main";
@@ -21,6 +23,8 @@ function App() {
       <Subscribe />
       <Image /> */}
       <Products id={id} name={name} mobileNumber={mobileNumber} />
+      <Example3 />
+      <Example2 />
     </header>
   );
 }
