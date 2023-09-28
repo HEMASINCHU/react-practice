@@ -1,5 +1,6 @@
 import "./App.css";
-import Effect from "./states/Effect";
+import JsonApi from "./states/JsonApi";
+// import Effect from "./states/Effect";
 // import Example3 from "./components/Example";
 // import Example2 from "./components/Example1";
 // import Products from "./components/product.";
@@ -25,8 +26,10 @@ function App() {
       <Image />
       <Products id={id} name={name} mobileNumber={mobileNumber} />
       <Example3 />
-      <Example2 /> */}
-      <Effect />
+      <Example2 /> 
+       <Effect /> */}
+
+      <JsonApi />
     </header>
   );
 }
