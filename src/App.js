@@ -1,5 +1,6 @@
 import "./App.css";
-import JsonApi from "./states/JsonApi";
+import JsonPalceholder from "./jsonserver/JsonPlaceholder";
+// import JsonApi from "./states/JsonApi";
 // import Effect from "./states/Effect";
 // import Example3 from "./components/Example";
 // import Example2 from "./components/Example1";
@@ -29,7 +30,8 @@ function App() {
       <Example2 /> 
        <Effect /> */}
 
-      <JsonApi />
+      {/* <JsonApi /> */}
+      <JsonPalceholder />
     </header>
   );
 }
