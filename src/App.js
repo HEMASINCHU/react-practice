@@ -1,5 +1,6 @@
 import "./App.css";
-import JsonPalceholder from "./jsonserver/JsonPlaceholder";
+import LoginForm from "./components/login/LoginForm";
+// import JsonPalceholder from "./jsonserver/JsonPlaceholder";
 // import JsonApi from "./states/JsonApi";
 // import Effect from "./states/Effect";
 // import Example3 from "./components/Example";
@@ -28,10 +29,10 @@ function App() {
       <Products id={id} name={name} mobileNumber={mobileNumber} />
       <Example3 />
       <Example2 /> 
-       <Effect /> */}
-
-      {/* <JsonApi /> */}
-      <JsonPalceholder />
+       <Effect /> 
+        <JsonApi /> 
+      <JsonPalceholder />*/}
+      <LoginForm />
     </header>
   );
 }
