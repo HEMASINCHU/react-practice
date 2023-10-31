@@ -1,5 +1,6 @@
 import "./App.css";
-import LoginForm from "./components/login/LoginForm";
+import Slider from "./components/imageslider/Slider";
+// import LoginForm from "./components/login/LoginForm";
 // import JsonPalceholder from "./jsonserver/JsonPlaceholder";
 // import JsonApi from "./states/JsonApi";
 // import Effect from "./states/Effect";
@@ -31,8 +32,9 @@ function App() {
       <Example2 /> 
        <Effect /> 
         <JsonApi /> 
-      <JsonPalceholder />*/}
-      <LoginForm />
+      <JsonPalceholder />
+      <LoginForm />*/}
+      <Slider/>
     </header>
   );
 }
